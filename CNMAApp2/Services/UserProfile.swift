@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import Combine
+
+class ProfileViewModel: ObservableObject {
+    @Published var user: User?
+
+    private let userManager = UserManager()
+
+    init() {
+        user = userManager.loadUser()
+    }
+}

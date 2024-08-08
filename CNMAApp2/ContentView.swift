@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("isAppLockEnabled") private var isAppLockEnabled: Bool = true
+    
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if isAppLockEnabled {
+            TabViewComponent()
+            } else {
+            AuthView()
         }
-        .padding()
+    }
+    @ViewBuilder
+    func TabViewComponent() -> some View{
+        SwiftUI.TabView(selection: .constant(1),
+                content:  {
+            MovieListView().tabItem {
+                Image(systemName: "film")
+                Text("Список фільмів") }
+            ProfileView().tabItem {
+                Image(systemName: "person")
+                Text("Особові данні") }
+        })
     }
 }
 

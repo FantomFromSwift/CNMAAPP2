@@ -8,6 +8,25 @@
 import Foundation
 
 struct User: Codable {
-    var username: String
+    var email: String
     var password: String
+}
+
+class UserManager {
+    private let userKey = "savedUser"
+    
+    func saveUser(_ user: User) {
+        if let encodedUser = try? JSONEncoder().encode(user) {
+            UserDefaults.standard.set(encodedUser, forKey: userKey)
+        }
+    }
+    
+    func loadUser() -> User? {
+        if let savedUserData = UserDefaults.standard.data(forKey: userKey) {
+            if let user = try? JSONDecoder().decode(User.self, from: savedUserData) {
+                return user
+            }
+        }
+        return nil
+    }
 }

@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct MovieBackdropCarauselView: View {
+struct MovieBackdropCarouselView: View {
     
     let title: String
     let movies: [Movie]
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 0){
+        VStack(alignment: .leading, spacing: 0) {
             Text(title)
                 .font(.title)
                 .fontWeight(.bold)
@@ -22,11 +22,13 @@ struct MovieBackdropCarauselView: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 16) {
                     ForEach(self.movies) { movie in
-                        
-                        MovieBackdropCard(movie: movie)
-                            .frame(width: 272, height: 200)
-                            .padding(.leading, movie.id == self.movies.first!.id ? 16 : 0)
-                            .padding(.leading, movie.id == self.movies.first!.id ? 16 : 0)
+                        NavigationLink(destination: MovieDetailView(movieId: movie.id)) {
+                            MovieBackdropCard(movie: movie)
+                                .frame(width: 272, height: 200)
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                        .padding(.leading, movie.id == self.movies.first!.id ? 16 : 0)
+                        .padding(.trailing, movie.id == self.movies.last!.id ? 16 : 0)
                     }
                 }
             }
@@ -35,5 +37,5 @@ struct MovieBackdropCarauselView: View {
 }
 
 #Preview {
-    MovieBackdropCarauselView(title: "Latest", movies: Movie.stubbedMovies)
+    MovieBackdropCarouselView(title: "Latest", movies: Movie.stubbedMovies)
 }
