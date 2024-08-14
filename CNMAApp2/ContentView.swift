@@ -23,11 +23,15 @@ struct ContentView: View {
         SwiftUI.TabView(selection: .constant(1),
                 content:  {
             MovieListView().tabItem {
-                Image(systemName: "film")
+                Image(systemName: "tv")
                 Text("Список фільмів") }
             ProfileView().tabItem {
                 Image(systemName: "person")
                 Text("Особові данні") }
+            MovieSearchView().tabItem {
+                Image(systemName: "magnifyingglass")
+                Text("Пошук")
+            } 
         })
     }
 }

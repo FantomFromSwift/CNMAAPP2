@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Target 'CNMAApp2' in project 'CNMAApp2' (no dependencies)
+Target 'CNMAApp2' in project 'CNMAApp2' (no dependencies)

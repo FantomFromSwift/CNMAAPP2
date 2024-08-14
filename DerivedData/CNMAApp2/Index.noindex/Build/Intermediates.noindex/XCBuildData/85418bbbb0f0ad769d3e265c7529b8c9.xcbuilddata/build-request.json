@@ -1,0 +1,60 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "4c4629cb099e001ab43dac9a2573d762f00ab8d6b13eadef9f9fefb1b9754d48"
+    }
+  ],
+  "containerPath" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Build/Products",
+      "pchPath" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,81 @@
+{
+  "" : {
+    "dependencies" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Index.noindex/Build/Intermediates.noindex/CNMAApp2.build/Debug-iphonesimulator/CNMAApp2.build/Objects-normal/arm64/CNMAApp2-master.d",
+    "diagnostics" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Index.noindex/Build/Intermediates.noindex/CNMAApp2.build/Debug-iphonesimulator/CNMAApp2.build/Objects-normal/arm64/CNMAApp2-master.dia",
+    "emit-module-dependencies" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Index.noindex/Build/Intermediates.noindex/CNMAApp2.build/Debug-iphonesimulator/CNMAApp2.build/Objects-normal/arm64/CNMAApp2-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Index.noindex/Build/Intermediates.noindex/CNMAApp2.build/Debug-iphonesimulator/CNMAApp2.build/Objects-normal/arm64/CNMAApp2-master-emit-module.dia",
+    "swift-dependencies" : "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Index.noindex/Build/Intermediates.noindex/CNMAApp2.build/Debug-iphonesimulator/CNMAApp2.build/Objects-normal/arm64/CNMAApp2-master.swiftdeps"
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Bindings/ImageLoader.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Bindings/MovieDetailsState.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Bindings/MoviesListState.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/CNMAApp2App.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/ContentView.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Model/Movie.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Model/Movie+Stub.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Model/User.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Services/MovieService.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Services/MovieStore.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Services/UserAuth.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Services/UserProfile.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Utils.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Views/AuthView.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Views/LoadingView.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Views/MovieBackdropCarauselView.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Views/MovieBackdropCard.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Views/MovieDetailView.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Views/MovieListView.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Views/MoviePosterCard.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Views/MoviePosterCarouselView.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Views/ProfileView.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Views/UIKitViews/ActivityIndicatorView.swift" : {
+
+  },
+  "/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/DerivedData/CNMAApp2/Index.noindex/Build/Intermediates.noindex/CNMAApp2.build/Debug-iphonesimulator/CNMAApp2.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  }
+}

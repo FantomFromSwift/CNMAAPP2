@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameBL</string>
+			<key>relativePath</key>
+			<string>./BL.colorset</string>
+			<key>swiftSymbol</key>
+			<string>BL</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameDK</string>
+			<key>relativePath</key>
+			<string>./DK.colorset</string>
+			<key>swiftSymbol</key>
+			<string>DK</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameWhiteAlpha</string>
+			<key>relativePath</key>
+			<string>./WhiteAlpha.colorset</string>
+			<key>swiftSymbol</key>
+			<string>whiteAlpha</string>
+		</dict>
+	</array>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/ivanneporadnyj/Desktop/XcodeDemo/CNMAApp2/CNMAApp2/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameBg</string>
+			<key>relativePath</key>
+			<string>./bg.imageset</string>
+			<key>swiftSymbol</key>
+			<string>bg</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>
